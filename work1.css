@@ -1,1 +1,127 @@
+body {
+    background-color: black;
 
+}
+
+.img1 {
+    height: 500px;
+
+}
+
+
+.img2 {
+    width: 450px;
+    height: 400px;
+
+
+}
+
+.display-1 {
+    margin-top: 20px;
+    color: rgba(48, 42, 7, 0.916);
+    text-decoration: solid;
+    font-family: 'Knewave', cursive;
+    font-family: 'Lobster', cursive;
+}
+
+.display-3 {
+    color: rgba(31, 27, 2, 0.91);
+    text-decoration: solid;
+    font-family: 'Knewave', cursive;
+    font-family: 'Lobster', cursive;
+}
+
+.btn2 {
+    margin: 100px;
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+
+}
+
+.parent {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.col3 {
+    width: 390px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+    transition: all 3s ease-in-out
+}
+
+.col3:hover {
+    background-size: 150%;
+}
+
+.sec1 {
+    background-image: url(./img/brush1.webp);
+}
+
+.sec2 {
+    background-image: url(./img/stdlr.webp);
+}
+
+.sec3 {
+    background-image: url(./img/surfaces.png);
+}
+
+.sec4 {
+    background-image: url(./img/PALET.webp);
+}
+
+.sec5 {
+    background-image: url(./img/paints.png);
+}
+
+.sec6 {
+    background-image: url(./img/PaintingEasels.webp);
+}
+
+.title {
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+
+.product {
+    text-align: center;
+    color: aliceblue;
+}
+
+.rent {
+    display: flex;
+    justify-content: center;
+
+}
+
+.title2 {
+    text-align: center;
+}
+
+
+
+.reg {
+
+    width: 600px;
+    height: 500px;
+
+}
+
+.easel {
+    width: 600px;
+    height: 500px;
+
+}
+
+.sub {
+    background-color: black;
+    color: white;
+}
