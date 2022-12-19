@@ -67,61 +67,68 @@ body {
 }
 
 .sec3 {
-    background-image: url(./img/surfaces.png);
+    background-image: url(./img/canvas4.jpg);
 }
 
 .sec4 {
-    background-image: url(./img/PALET.webp);
+    background-image: url(./img/pelettee.avif);
 }
 
 .sec5 {
-    background-image: url(./img/paints.png);
+    background-image: url(./img/paint3.jpg);
 }
-
 .sec6 {
     background-image: url(./img/PaintingEasels.webp);
 }
-
 .title {
     font-size: 30px;
-    color: black;
+    color: rgb(252, 251, 251);
     text-align: center;
     text-decoration: none;
-
+    background-color: rgba(64, 23, 23, 0.632);
 }
-
-
 .product {
     text-align: center;
     color: aliceblue;
 }
-
 .rent {
     display: flex;
     justify-content: center;
-
 }
-
 .title2 {
     text-align: center;
 }
-
-
-
 .reg {
-
     width: 600px;
     height: 500px;
-
 }
-
 .easel {
     width: 600px;
     height: 500px;
-
 }
-
 .sub {
     background-color: black;
     color: white;
+}
+.footer{
+  height: 40px;
+    background-color: grey;
+}
+.col3 .btn{
+margin-top: 300px;
+margin-left: 130px;
+width: 130px;
+height: 40px;
+font-size: medium;
+color: antiquewhite;
+background-color: rgba(23, 3, 1, 0.574);
+}
+@media(max-width:600px){
+    .parent{
+        
+        display: block;
+    }
+   .rent{
+    display: block;
+   }
 }
