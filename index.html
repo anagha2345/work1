@@ -26,7 +26,7 @@
  
 </head>
 
-<body>
+<body style="background-color: black;">
   <nav class="navbar navbar-expand-lg bg-light fixed-top">
     <div class="container-fluid ">
       <img src="./img/art_lounge_logo.jpg" alt="">
@@ -52,7 +52,7 @@
             </ul>
           </li>
           <li class="nav-item dropdown ">
-            <a class="nav-link dropdown-toggle fs-4" href="#" role="button" data-bs-toggle="dropdown"
+            <a class="nav-link dropdown-toggle fs-4 ms-2" href="#" role="button" data-bs-toggle="dropdown"
               aria-expanded="false">Colors
 
             </a>
@@ -65,7 +65,7 @@
             </ul>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle fs-4" href="#" role="button" data-bs-toggle="dropdown"
+            <a class="nav-link dropdown-toggle fs-4 ms-2" href="#" role="button" data-bs-toggle="dropdown"
               aria-expanded="false">
               Surface
             </a>
@@ -78,31 +78,29 @@
             </ul>
           </li>
           <li class="nav-item dropdown fs-4">
-            <a class="nav-link dropdown-toggle fs-4" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link dropdown-toggle fs-4 ms-2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Brushes
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item fs-4" href="#">Brush sets</a></li>
+              <li><a class="dropdown-item fs-4"  href="#">Brush sets</a></li>
               <li><a class="dropdown-item fs-4" href="#">Brush </a></li>
               <li><a class="dropdown-item fs-4" href="#">Brush </a></li>
               <li><a class="dropdown-item fs-4" href="#">Brush </a></li>
               <li><a class="dropdown-item fs-4" href="#">Something else here</a></li>
             </ul>
           </li>
-          <li class="nav-item">
-            <a class="nav-link fs-4" href="#">Contact us</a>
-          </li>
+         
           <li class="nav-item">
             <a class="nav-link fs-4" href="#">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link fs-4" href="#"></a>
+            <a class="nav-link fs-4" href="#contact">Contact</a>
           </li>
 
 
         </ul>
         <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="I'm shopping for......" aria-label="Search">
+          <input class="form-control me-2 w-50" type="search" placeholder="I'm shopping for......" aria-label="Search">
           <button class="btn btn-outline-dark" type="submit">Search</button>
         </form>
       </div>
@@ -110,8 +108,8 @@
   </nav>
   <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false" >
 
-    <div class="carousel-inner ">
-      <div class="carousel-item active">
+    <div class="carousel-inner col-12">
+      <div class="carousel-item active"  data-bs-interval="1000">
         <img src="./img/slide2.webp" class="d-block w-100 img1" alt="..." >
         <div class="carousel-caption ">
 
@@ -121,14 +119,21 @@
 
         </div>
       </div>
-      <div class="carousel-item">
+      <div class="carousel-item" data-bs-interval="2000">
         <img src="./img/slide1.webp" class="d-block w-100 img1" alt="..." >
         <div class="carousel-caption d-none d-md-block">
+          <h3 class="display-1">CHECK OUT</h3>
+          <h1 class="display-3">OUR COLLECTIONS NOW!</h1>
+          <button class="btn btn-warning btn-lg btn2">what's in store</button>
         </div>
       </div>
-      <div class="carousel-item">
+      <div class="carousel-item" data-bs-interval="1000">
         <img src="./img/slide3.webp" class="d-block w-100 img1" alt="...">
-
+        <div class="carousel-caption d-none d-md-block">
+          <h3 class="display-1">CHECK OUT</h3>
+          <h1 class="display-3">OUR COLLECTIONS NOW!</h1>
+          <button class="btn btn-warning btn-lg btn2">what's in store</button>
+        </div>
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
@@ -140,7 +145,7 @@
       <span class="visually-hidden">Next</span>
     </button>
   </div>
-  <div class="bg-black pt-5">
+  <div class="bg-black pt-5 ">
     <h1 class="product">PRODUCTS</h1>
     <div class="bg-black parent">
       <div class="sec1 col3 ">
@@ -176,34 +181,59 @@
       </div>
     </div>
   </div>
-  <div class="container w-75 pt-5">
+  <div class="container w-75 pt-5 mt-4">
     <div>
-      <h1 class="title2">Easels on Rent</h1>
-      <p class="fs-3">Are you looking to rent out easels for an event or workshop? Fill the form below and we shall get in touch with you.</p>
+      <h1 class="title2 text-white">Easels on Rent</h1>
+      <p class="fs-3 text-white">Are you looking to rent out easels for an event or workshop? Fill the form below and we shall get in touch with you.</p>
     </div>
-    <div class="rent">
-      <div class="reg row col-lg-6 col-md-6 col-sm-12">
+    <div class="container rent">
+      <div class="container w-50 reg row col-lg-6 col-md-6 col-sm-12">
        
-          <label for="" class="fs-4">First Name</label>
-          <input type="text" class="form-control w-50">
-          <label for="" class="fs-4 ">Last Name</label>
-          <input type="text" class="form-control w-50">
-          <label for="" class="fs-4">Email</label>
-          <input type="email" name="" id="" class="form-control w-50">
-          <label for="" class="fs-4 ">Mobile number</label>
-          <input type="text"  class="form-control w-75" >
-          <label for="" class="fs-4">Kindly mention the date, duration (No. of days) & No. of easels you require...</label>
-          <textarea name="" id="" cols="50" rows="3" class="w-75 form-control"></textarea><br>
-          <input type="submit" class="sub w-50 mt-5">
+          <label for="" class="fs-4 text-white ms-4">First Name</label>
+          <input type="text" class="form-control w-75 ms-4">
+          <label for="" class="fs-4  text-white">Last Name</label>
+          <input type="text" class="form-control w-75 ms-4">
+          <label for="" class="fs-4 text-white">Email</label>
+          <input type="email" name="" id="" class="form-control  w-75 ms-4">
+          <label for="" class="fs-4 text-white">Mobile number</label>
+          <input type="text"  class="form-control w-75 ms-4" >
+          <label for="" class="fs-4 text-white">Kindly mention the date, duration (No. of days) & No. of easels you require...</label>
+          <textarea name="" id="" cols="50" rows="3" class="w-75 form-control ms-4"></textarea><br>
+          <button class="btn btn-secondary mt-4 w-75 ms-4">submit</button>
      
       </div>
       <div class="easel">
          <img src="./img/istockphoto-668060762-612x612.jpg" alt="" style="width: 600px; height: 500px;">
       </div>
     </div>
+    
   </div>
-  <footer class="footer bg-dark">
-</footer>
+
+  <!-- reach out -->
+  
+<h2 class="text-center text-white mt-5 fs-1" >Reach Out</h2>
+
+  <div class="container w-50  "
+    style="border-radius: 10px; background-size: cover;" id="contact">
+    
+
+    <input type="text" class="form-control mt-4 " placeholder="Name"
+      >
+
+    <input type="text" class="form-control mt-4" placeholder="Email"
+      >
+
+    <textarea name="" id="" cols="15" rows="5" class="form-control mt-4 " placeholder="Please write your message here"
+      ></textarea>
+
+    <div class="text-center mb-5">
+      <button class="btn btn-dark  mt-4  w-25">Contact Me</button>
+    </div>
+<div style="height: 40px;"></div>
+  </div>
+  <footer class="p-2 mb-0 w-100 mt-5" style="background-color: rgb(19, 26, 20); height: 50px; color: hsl(36, 22%, 95%); bottom: 0; position: fixed;">
+    
+  </footer>
 </body>
 
 </html>
